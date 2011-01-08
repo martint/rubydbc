@@ -4,8 +4,6 @@ require 'rake/testtask'
 require 'rake/clean'
 require 'rake/gempackagetask'
 
-Gem::manage_gems
-
 task :default => ['test']
 
 spec = Gem::Specification.new do |s|
